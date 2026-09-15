@@ -1,4 +1,3 @@
-variable.tf
 variable "name" {
   description = "Name to be used on all the resources as identifier"
   default     = ""
@@ -162,3 +161,4 @@ variable "dhcp_options_netbios_name_servers" {
 variable "dhcp_options_netbios_node_type" {
   description = "Specify netbios node_type for DHCP options set"
   default     = ""
+}
